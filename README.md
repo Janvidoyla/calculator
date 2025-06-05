@@ -15,34 +15,12 @@ Clear button to reset the calculator.
 Error handling for invalid operations, such as division by zero.
 
 Technologies Used
+
 HTML5: For structuring the calculator layout.
 
 CSS3: For styling the calculator and making it visually appealing.
 
 JavaScript: For implementing the calculator's functionality and interactivity.
-
-
-Installation and Usage
-To use the calculator, follow these steps:
-
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/calculator-project.git
-Navigate to the project directory:
-
-bash
-Copy
-Edit
-cd calculator-project
-Open the index.html file in any modern web browser:
-
-bash
-Copy
-Edit
-open index.html
 
 
 Folder Structure
