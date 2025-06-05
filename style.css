@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.calculator{
+    width: 80vw;
+    max-width: 300px;
+    height: 380px;
+    background-color: #b286c3;
+    border-radius: 10px;
+    box-shadow: 1px 5px 20px rgb(77, 6, 118) , -1px -5px 20px rgb(77, 7, 107);
+}
+.display{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+.display input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: right;
+    font-size: 25px;
+    
+
+}
+.buttons{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.row{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.row1 button{
+    color: rgb(44, 1, 54);
+
+}
+.row button{
+    width: 18%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px black , -1px -2px 10px black;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.row button:hover{
+    box-shadow: insert 1px 2px 10px black;
+    font-size: small;
+    color: rgba(255,255,255,0,506);
+
+}
+#equal{
+    width: 40%;
+    color: rgb(44, 1, 54);
+}
